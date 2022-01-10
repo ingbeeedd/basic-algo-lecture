@@ -22,7 +22,7 @@ void func(int n, int r, int c)
 		for (int j = c; j < c + n; j++) {
 			sum += mat[i][j];
 		}
-  }
+  	}
   
 	if (sum == 0) {
 		white += 1;
